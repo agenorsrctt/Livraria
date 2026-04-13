@@ -5,42 +5,94 @@
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: beige;
     padding: 20px;
     margin: 10px;
-    height: 15vh;
-}
-
-.adicionar, nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 30px;
 }
 
-.busca {
+nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    gap: 50px;
 }
 
-.exibir-livros-cadastrados{
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.container-AddBusc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
     padding: 20px;
     margin: 10px;
-    height: 70vh;
+    background-color: blanchedalmond;
+    flex: 1 1 70px;
+}
+
+.container-result {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    flex: 4 4;
+}
+
+.adicionar {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.label-form-add {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.busca {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.form-selecao {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+    justify-content: space-between;
 }
 
 footer {
+    background-color: beige;
     padding: 20px;
     margin: 10px;
-    height: 15vh;
-}
-
-header, .exibir-livros-cadastrados, footer {
-    border-radius: 20px;
-    background-color: rgba(61, 61, 61, 0.654);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
