@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Minha Livraria</h2>
+        <div class="adicionar">
+            <a href="#"> <span>+</span> Adicionar Livro</a>
+        </div>
+        <div class="busca">
+            <h2>Busca de Livros</h2>
+            <form>
+                <select name="nome" id="selecao-tipo">
+                    <option value="">Selecione uma opção...</option>
+                    <option value="livro">Livro</option>
+                    <option value="autor">Autor</option>
+                </select>
+                <input type="text" name="texto-pesquisa" id="pesquisa">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <div class="busca-encontrada">
+                <ul class="livros-encontrados">
+                    //implementar logica no JS
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Livros</a>
+            <a href="#">Autores</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="exibir-livros-cadastrados">
+                <h2>Livros Cadastrados</h2>
+                <ul class="livros-cadastrados"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Sistema de Gerenciamento de Livraria</h2>
+        <p>Criado por Agenor Silva Rodrigues</p>
+    </footer>
+</body>
+</html>
