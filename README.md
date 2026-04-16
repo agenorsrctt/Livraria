@@ -1,26 +1,28 @@
-📚 Sistema de Gerenciamento de Livraria
+#📚 Sistema de Gerenciamento de Livraria
+
 Este é um projeto full-stack de uma Biblioteca Pessoal, desenvolvido para facilitar o registo e a organização de coleções de livros. O sistema permite adicionar, listar, atualizar e remover obras, integrando um backend robusto em Java com um frontend dinâmico.
 
-🚀 Tecnologias Utilizadas
-Backend
-Java 17
+#🚀 Tecnologias Utilizadas
+#Backend
+- Java 17
 
-Spring Boot 3
+- Spring Boot 3
 
-Spring Data JPA: Para persistência de dados
+- Spring Data JPA: Para persistência de dados
 
-H2 Database: Banco de dados em memória para desenvolvimento rápido.
+- MySql
 
-Maven: Gestor de dependências.
+- Maven: Gestor de dependências.
 
-Frontend
-HTML5: Estrutura da interface
+#Frontend
 
-CSS3: Design responsivo com Flexbox
+- HTML5: Estrutura da interface
 
-JavaScript (ES6+): Consumo de API assíncrona com fetch
+- CSS3: Design responsivo com Flexbox
 
-📋 Funcionalidades
+- JavaScript (ES6+): Consumo de API assíncrona com fetch
+
+#📋 Funcionalidades
 Registo de Livros: Interface para inserir título, autor, género e ano de publicação.
 
 Listagem em Tempo Real: Exibição automática dos livros cadastrados assim que a página é carregada.
@@ -37,7 +39,7 @@ DELETE: Remover livros da base de dados.
 
 Persistência: Utilização de JPA para mapeamento objeto-relacional (ORM).
 
-🔧 Estrutura do Projeto
+#🔧 Estrutura do Projeto
 O projeto segue o padrão de camadas para melhor manutenção:
 
 Model (Livros.java): Define a entidade e os campos do banco de dados.
@@ -50,7 +52,7 @@ Controller (LivroController.java): Expõe os endpoints REST para o frontend.
 
 Frontend (script.js): Classe encapsulada para chamadas à API e manipulação do DOM.
 
-🛠️ Como Executar o Projeto
+#🛠️ Como Executar o Projeto
 Pré-requisitos: Ter o Java 17+ e o Maven instalados.
 
 Executar o Backend:
