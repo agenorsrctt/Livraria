@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
 }
 
 header {
@@ -95,4 +97,23 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+}
+
+.livros-cadastrados {
+    display: flex;
+}
+
+.livros-cadastrados li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px;
+    overflow-y: auto;
+    background-color:rgba(255, 255, 255, 0.712);
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 20px;
 }
